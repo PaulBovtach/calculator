@@ -1,0 +1,371 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0   ;
+}
+.container{
+    width: 600px;
+    align-items: center;
+    height: 2000px;
+}
+
+
+.calculator-h1{
+    margin-top: 90px;
+    text-align: center;
+}
+.wrapper1{
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+.adding-form{
+    align-items: center;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    height: 550px;
+    margin: 40px auto;
+    
+}
+.number1{
+    font-size: 25px;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black ;
+    
+}
+
+
+.number2{
+    font-size: 25px;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black ;
+}
+.plus{
+    font-size: 40px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.result-btn1{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(14, 197, 14);
+    box-shadow: 2px 4px 18px black;
+    border: none;
+    width: 300px;
+}
+.result-btn1:hover{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(14, 197, 14);
+    box-shadow: 2px 4px 28px black;
+    border: none;
+    width: 300px;
+}
+.result-btn1:active{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(18, 151, 18);
+    box-shadow: 2px 4px 28px black;
+    border: none;
+    width: 300px;
+}
+.add-h2{
+    color :rgb(14, 197, 14) ;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.wrapper2{
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+.removing-form{
+    align-items: center;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    height: 550px;
+    margin: 40px auto;
+    
+}
+.number3{
+    font-size: 25px;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black ;
+    
+}
+
+
+.number4{
+    font-size: 25px;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black ;
+}
+.plus{
+    font-size: 40px;
+}
+
+.result-btn2{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(14, 197, 14);
+    box-shadow: 2px 4px 18px black;
+    border: none;
+    width: 300px;
+}
+.result-btn2:hover{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(14, 197, 14);
+    box-shadow: 2px 4px 28px black;
+    border: none;
+    width: 300px;
+}
+.result-btn2:active{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(18, 151, 18);
+    box-shadow: 2px 4px 28px black;
+    border: none;
+    width: 300px;
+}
+.remove-h2{
+    color :rgb(14, 197, 14) ;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper3{
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+.dividing-form{
+    align-items: center;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    height: 550px;
+    margin: 40px auto;
+    
+}
+.number5{
+    font-size: 25px;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black ;
+    
+}
+
+
+.number6{
+    font-size: 25px;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black ;
+}
+.plus{
+    font-size: 40px;
+}
+
+.result-btn3{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(14, 197, 14);
+    box-shadow: 2px 4px 18px black;
+    border: none;
+    width: 300px;
+}
+.result-btn3:hover{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(14, 197, 14);
+    box-shadow: 2px 4px 28px black;
+    border: none;
+    width: 300px;
+}
+.result-btn3:active{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(18, 151, 18);
+    box-shadow: 2px 4px 28px black;
+    border: none;
+    width: 300px;
+}
+.divide-h2{
+    color :rgb(14, 197, 14) ;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper4{
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+.multiplying-form{
+    align-items: center;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    height: 550px;
+    margin: 40px auto;
+    
+}
+.number7{
+    font-size: 25px;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black ;
+    
+}
+
+
+.number8{
+    font-size: 25px;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black ;
+}
+.plus{
+    font-size: 40px;
+}
+
+.result-btn4{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(14, 197, 14);
+    box-shadow: 2px 4px 18px black;
+    border: none;
+    width: 300px;
+}
+.result-btn4:hover{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(14, 197, 14);
+    box-shadow: 2px 4px 28px black;
+    border: none;
+    width: 300px;
+}
+.result-btn4:active{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(18, 151, 18);
+    box-shadow: 2px 4px 28px black;
+    border: none;
+    width: 300px;
+}
+.multiply-h2{
+    color :rgb(14, 197, 14) ;
+    font-size: 40px;
+}
