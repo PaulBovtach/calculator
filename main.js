@@ -80,3 +80,63 @@ function multiplying(){
 
 
 }
+
+
+
+
+
+const buttonResult5 = document.querySelector('.result-btn5')
+
+const sqrNumber = document.querySelector('.sqr-number');
+
+
+
+buttonResult5.addEventListener('click', sqrFinder); 
+
+function sqrFinder(){
+    
+    let a = Number(sqrNumber.value)
+
+    let  result5 = Math.sqrt(a)
+
+    alert(result5);
+
+
+}
+
+
+const buttonResult6 = document.querySelector('.result-btn6')
+
+const stepNumber1 = document.querySelector('.step-number1');
+const stepNumber2 = document.querySelector('.step-number2');
+
+
+buttonResult6.addEventListener('click', step); 
+
+function step(){
+    let a = Number(stepNumber1.value);
+    let b = Number(stepNumber2.value);
+
+    let result6 = Math.pow(a, b)
+    alert(result6)
+
+}
+
+
+
+const buttonResult7 = document.querySelector('.result-btn7')
+
+const percentNumber1 = document.querySelector('.percent-number1');
+const percentNumber2 = document.querySelector('.percent-number2');
+
+
+buttonResult7.addEventListener('click', percent); 
+
+function percent(){
+    let a = Number(percentNumber1.value);
+    let b = Number(percentNumber2.value);
+
+    let result7 = b * a / 100
+    alert(result7)
+
+}
