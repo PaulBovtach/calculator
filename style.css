@@ -7,9 +7,10 @@ h1,h2,h3,h4,h5,h6{
     margin: 0   ;
 }
 .container{
+    margin: 0 auto;
     width: 600px;
     align-items: center;
-    height: 2000px;
+    height: 3745px;
 }
 
 
@@ -369,3 +370,223 @@ input::-webkit-inner-spin-button {
     color :rgb(14, 197, 14) ;
     font-size: 40px;
 }
+
+
+
+
+
+
+.wrapper5{
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-evenly;
+}
+.sqr-h2{
+    color :rgb(14, 197, 14) ;
+    font-size: 40px;
+}
+.sqr-form{
+    align-items: center;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    height: 550px;
+    margin: 40px auto;  
+}
+.result-btn5{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(14, 197, 14);
+    box-shadow: 2px 4px 18px black;
+    border: none;
+    width: 300px;
+}
+.result-btn5:hover{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(14, 197, 14);
+    box-shadow: 2px 4px 28px black;
+    border: none;
+    width: 300px;
+}
+.result-btn5:active{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(18, 151, 18);
+    box-shadow: 2px 4px 28px black;
+    border: none;
+    width: 300px;
+}
+.sqr-number{
+    font-size: 25px;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black ;
+}
+
+
+
+
+
+.wrapper6{
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-evenly;
+}
+.step-h2{
+    color :rgb(14, 197, 14) ;
+    font-size: 40px;
+}
+.step-form{
+    align-items: center;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    height: 550px;
+    margin: 40px auto;  
+}
+.result-btn6{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(14, 197, 14);
+    box-shadow: 2px 4px 18px black;
+    border: none;
+    width: 300px;
+}
+.result-btn6:hover{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(14, 197, 14);
+    box-shadow: 2px 4px 28px black;
+    border: none;
+    width: 300px;
+}
+.result-btn6:active{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(18, 151, 18);
+    box-shadow: 2px 4px 28px black;
+    border: none;
+    width: 300px;
+}
+.step-number1{
+    font-size: 25px;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black ;
+}
+.step-number2{
+    font-size: 25px;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black ;
+}
+
+
+
+
+
+.wrapper7{
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-evenly;
+}
+.percent-h2{
+    color :rgb(14, 197, 14) ;
+    font-size: 40px;
+}
+.percent-form{
+    align-items: center;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    height: 550px;
+    margin: 40px auto;  
+}
+.result-btn7{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(14, 197, 14);
+    box-shadow: 2px 4px 18px black;
+    border: none;
+    width: 300px;
+}
+.result-btn7:hover{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(14, 197, 14);
+    box-shadow: 2px 4px 28px black;
+    border: none;
+    width: 300px;
+}
+.result-btn7:active{
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(18, 151, 18);
+    box-shadow: 2px 4px 28px black;
+    border: none;
+    width: 300px;
+}
+.percent-number1{
+    font-size: 25px;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black ;
+}
+.percent-number2{
+    font-size: 25px;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
